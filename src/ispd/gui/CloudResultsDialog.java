@@ -1149,7 +1149,7 @@ class CloudResultsDialog extends JDialog {
         final AbstractXYItemRenderer xysteparearenderer =
                 new XYStepAreaRenderer(2);
         xysteparearenderer.setDataBoundsIncludesVisibleSeriesOnly(false);
-        xysteparearenderer.setBaseToolTipGenerator(new StandardXYToolTipGenerator());
+        xysteparearenderer.setDefaultToolTipGenerator(new StandardXYToolTipGenerator());
         xysteparearenderer.setDefaultEntityRadius(6);
         xyplot.setRenderer(xysteparearenderer);
 
