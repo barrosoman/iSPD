@@ -1,2 +1,11 @@
 - name: Redmine Integration
+  # You may pin to the exact commit or the version.
+  # uses: thaim/redmine-integration-action@a07605ffbcb189fcc386a1649b55832db75c46eb
   uses: thaim/redmine-integration-action@v1.2.0
+  with:
+    # github token
+    # token: # default is ${{ github.token }}
+    # redmine hostname to integrate with
+    redmine_host: http://redmine.joaobarroso.com.br
+    # redmine apikey to use
+    redmine_apikey: edee2355aff8d49f47d893eefd57402c3faf37b7
