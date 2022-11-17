@@ -1,0 +1,2 @@
+- name: Redmine Integration
+  uses: thaim/redmine-integration-action@v1.2.0
